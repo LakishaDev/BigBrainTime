@@ -1,3 +1,3 @@
 <?php
-include "./php/db/" 
+    include "./php/inc/init.php"; 
 ?>
