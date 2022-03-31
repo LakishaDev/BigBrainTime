@@ -1,5 +1,5 @@
 <?php
-include "./php/db/db.php";
+include "./php/inc/init.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ime = escape($_POST["ime"]);
