@@ -1,4 +1,5 @@
 # Big Brain Time
+## Skola: ETS Mija Stanimirovic
 ## Clanovi: 
  - Andrija Djordjevic
  - Dusan Djurdjanovic
