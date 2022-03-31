@@ -6,3 +6,6 @@ C:\III-6\Lazar_Cvetanovic\Takmicenje\BigBrainTime\BigBrainTimeProjekat\BigBrainT
 C:\III-6\Lazar_Cvetanovic\Takmicenje\BigBrainTime\BigBrainTimeProjekat\BigBrainTimeProjekat\obj\Debug\BigBrainTimeProjekat.csproj.GenerateResource.Cache
 C:\III-6\Lazar_Cvetanovic\Takmicenje\BigBrainTime\BigBrainTimeProjekat\BigBrainTimeProjekat\obj\Debug\BigBrainTimeProjekat.exe
 C:\III-6\Lazar_Cvetanovic\Takmicenje\BigBrainTime\BigBrainTimeProjekat\BigBrainTimeProjekat\obj\Debug\BigBrainTimeProjekat.pdb
+C:\III-6\Lazar_Cvetanovic\Takmicenje\GITHUB\BigBrainTime\BigBrainTimeProjekat\BigBrainTimeProjekat\bin\Debug\BigBrainTimeProjekat.exe.config
+C:\III-6\Lazar_Cvetanovic\Takmicenje\GITHUB\BigBrainTime\BigBrainTimeProjekat\BigBrainTimeProjekat\obj\Debug\BigBrainTimeProjekat.exe
+C:\III-6\Lazar_Cvetanovic\Takmicenje\GITHUB\BigBrainTime\BigBrainTimeProjekat\BigBrainTimeProjekat\obj\Debug\BigBrainTimeProjekat.pdb
