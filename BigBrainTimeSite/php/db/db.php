@@ -19,4 +19,15 @@ function confirm($result)
     if (!$result) {
         die("QUERY FAILED " . mysqli_error($con));
     }
+    if ($result) {
+        return true;
+    }else {
+        return false;
+    }
+}
+
+function redirect($lok)
+{
+    header("location: {$lok}");
+    exit();
 }
