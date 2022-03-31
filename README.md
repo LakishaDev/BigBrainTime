@@ -1,2 +1,7 @@
 # Big Brain Time
-# Nas projekat 
+## Clanovi: 
+ - Andrija Djordjevic
+ - Dusan Djurdjanovic
+ - Jovana Nedeljkovic 
+ - Martina Nikolic 
+ - Lazar Cvetanovic
