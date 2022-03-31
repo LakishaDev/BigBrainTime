@@ -1,8 +1,2 @@
-## CAO
-
-# MARTINA
-
-
-#
-
-#Andrija
+# Big Brain Time
+# Nas projekat 
