@@ -12,6 +12,7 @@
 <body>
     <ul>
         <li><a href="index.php">HOME</a></li>
+        <li><a href="donate.php">DONIRAJ</a></li>
         <li><a href="register.php">REGISTRACIJA</a></li>
     </ul>
     
