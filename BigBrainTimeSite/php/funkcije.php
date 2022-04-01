@@ -28,6 +28,7 @@ function izvrsi_registraciju() {
         $email = escape($_POST["email"]);
         $sifra = escape($_POST["sifra"]);
         $sifraP = escape($_POST["sifraP"]);
+        $brRac = escape($_POST["brracuna"]);
 
         if (!email_postoji($email)) {
             if ($sifra == $sifraP) {
@@ -47,7 +48,7 @@ function izvrsi_registraciju() {
                         $imgContent = addslashes(file_get_contents($image)); 
                     
                         // Insert image content into database 
-                        $sql = "INSERT INTO primaoci(email, lozinka, ime, prezime, slika, dateReg) VALUES('$email', '$sifra', '$ime', '$prezime', '$imgContent', NOW())";
+                        $sql = "INSERT INTO primaoci(email, lozinka, ime, prezime, slika, dateReg, brojRacuna) VALUES('$email', '$sifra', '$ime', '$prezime', '$imgContent', NOW(), '$brRac')";
     
                         if(confirm(query($sql))){ 
                             $status = 'success'; 
@@ -98,11 +99,22 @@ function proveri_prijavljivanje() {
 }
 
 function prikazi_primaoce() {
-    $result = query("SELECT id, ime, prezime, stanje, email FROM primaoci");
+    $result = query("SELECT id, ime, prezime, stanje, email, brojRacuna FROM primaoci ORDER BY stanje ASC");
 
     if ($result->num_rows > 0) {
         return $result;
     } else {
         return false;
+    }
+}
+
+function doniraj() {
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $ime = escape($_POST["ime"]);
+        $prezime = escape($_POST["prezime"]);
+        $email = escape($_POST["email"]);
+        $sifra = escape($_POST["sifra"]);
+        $sifraP = escape($_POST["sifraP"]);
+        $brRac = escape($_POST["brracuna"]);
     }
 }

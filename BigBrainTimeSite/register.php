@@ -1,7 +1,7 @@
 <?php 
     include "./php/inc/header.php"; 
     izvrsi_registraciju();
-    proveri_prijavljivanje();
+    // proveri_prijavljivanje();
 ?>
 
 <body id="registerContainer">
@@ -33,6 +33,12 @@
 
 
         <input type="password" id="sifraRP" name="sifraP" required>
+        <br>
+        <br>
+        <br>
+        <h2>Unesite svoj broj računa</h2>
+
+        <input type="text" name="brracuna" id="brRacuna" required>
         <br>
         <br>
         <br>
