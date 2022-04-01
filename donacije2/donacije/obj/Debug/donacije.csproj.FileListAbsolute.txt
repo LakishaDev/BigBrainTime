@@ -1,0 +1,10 @@
+C:\Users\Ucenik\Documents\donacije\donacije\bin\Debug\donacije.exe.config
+C:\Users\Ucenik\Documents\donacije\donacije\bin\Debug\donacije.exe
+C:\Users\Ucenik\Documents\donacije\donacije\bin\Debug\donacije.pdb
+C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.Donacije.resources
+C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.Form1.resources
+C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.Properties.Resources.resources
+C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.csproj.GenerateResource.Cache
+C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.exe
+C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.pdb
+C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.csprojResolveAssemblyReference.cache

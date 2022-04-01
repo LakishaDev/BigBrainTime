@@ -7,4 +7,16 @@ C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.Properties.Resour
 C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.csproj.GenerateResource.Cache
 C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.exe
 C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.pdb
-C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.csprojResolveAssemblyReference.cache
+C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.csprojAssemblyReference.cache
+C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.csproj.CoreCompileInputs.cache
+C:\Users\Ucenik\Documents\donacije\donacije\bin\Debug\MySql.Data.dll
+C:\Users\Ucenik\Documents\donacije\donacije\bin\Debug\Google.Protobuf.dll
+C:\Users\Ucenik\Documents\donacije\donacije\bin\Debug\ZstdNet.dll
+C:\Users\Ucenik\Documents\donacije\donacije\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Ucenik\Documents\donacije\donacije\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Ucenik\Documents\donacije\donacije\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Ucenik\Documents\donacije\donacije\bin\Debug\System.Buffers.dll
+C:\Users\Ucenik\Documents\donacije\donacije\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Ucenik\Documents\donacije\donacije\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Ucenik\Documents\donacije\donacije\bin\Debug\MySql.Data.xml
+C:\Users\Ucenik\Documents\donacije\donacije\obj\Debug\donacije.csproj.CopyComplete
