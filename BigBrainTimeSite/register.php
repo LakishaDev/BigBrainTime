@@ -4,25 +4,44 @@
     proveri_prijavljivanje();
 ?>
 
+<body id="registerContainer">
     <form method="POST" enctype="multipart/form-data">
-        Ime
+        <h2>Ime</h2>
         <input type="text" name="ime" id="imeR" required>
         <br>
-        Prezime
+        <br>
+        <br>
+        <h2>Prezime</h2>
+
         <input type="text" name="prezime" id="prezimeR" required>
         <br>
-        Email
+        <br>
+        <br>
+        <h2>Email</h2>
+
         <input type="email" name="email" id="emailR" required>
         <br>
-        Sifra
+        <br>
+        <br>
+        <h2>Šifra</h2>
+
         <input type="password" name="sifra" id="sifraR" required>
         <br>
-        Potvrdi sifru
-        <input type="password" id="sifraRP" required>
+        <br>
+        <br>
+        <h2>Potvrdi šifru</h2>
+
+
+        <input type="password" id="sifraRP" name="sifraP" required>
+        <br>
+        <br>
         <br>
         <input type="file" name="image" required>
-        <br>
+
         <input type="submit" value="Registruj se">
+        <br>
+        <br>
     </form>
+</body>
 
 <?php include "./php/inc/footer.php"; ?>
