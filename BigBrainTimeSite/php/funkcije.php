@@ -67,3 +67,13 @@ function proveri_prijavljivanje() {
         redirect('index.php');
     }
 }
+
+function prikazi_primaoce() {
+    $result = query("SELECT id, ime, prezime, stanje, email FROM primaoci");
+
+    if ($result->num_rows > 0) {
+        return $result;
+    } else {
+        return false;
+    }
+}
