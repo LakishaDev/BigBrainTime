@@ -5,48 +5,50 @@
 ?>
 
 <body id="registerContainer">
+    <h1>Registracija osoba kojima je potrebna pomoc</h1>
     <form method="POST" enctype="multipart/form-data">
-        <h2>Ime</h2>
-        <input type="text" name="ime" id="imeR" required>
-        <br>
-        <br>
-        <br>
-        <h2>Prezime</h2>
+            <h2>Ime</h2>    
+            <input type="text" name="ime" id="imeR" required>
+            <br>
+           
+            
+            <h2>Prezime</h2>
+            
+            <input type="text" name="prezime" id="prezimeR" required>
+            <br>
+            
+            
+            <h2>Email</h2>
+            
+            <input type="email" name="email" id="emailR" required>
+            <br>
+            
+            
+            <h2>Šifra</h2>
 
-        <input type="text" name="prezime" id="prezimeR" required>
+            <input type="password" name="sifra" id="sifraR" required>
+            <br>
+        
+            
+            <h2>Potvrdi šifru</h2>
+            
+        
+        <input type="password" name="sifraP" id="sifraP" required>
         <br>
-        <br>
-        <br>
-        <h2>Email</h2>
-
-        <input type="email" name="email" id="emailR" required>
-        <br>
-        <br>
-        <br>
-        <h2>Šifra</h2>
-
-        <input type="password" name="sifra" id="sifraR" required>
-        <br>
-        <br>
-        <br>
-        <h2>Potvrdi šifru</h2>
-
-
-        <input type="password" id="sifraRP" name="sifraP" required>
-        <br>
-        <br>
-        <br>
+        
+        
         <h2>Unesite svoj broj računa</h2>
-
-        <input type="text" name="brracuna" id="brRacuna" required>
+        
+        <input type="text" id="brRacuna" name="brracuna" required>
         <br>
         <br>
-        <br>
+        
         <input type="file" name="image" required>
-
+        
+        
         <input type="submit" value="Registruj se">
-        <br>
-        <br>
+        
+        
     </form>
 </body>
 

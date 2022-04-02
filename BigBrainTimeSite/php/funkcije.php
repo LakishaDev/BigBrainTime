@@ -113,8 +113,30 @@ function doniraj() {
         $ime = escape($_POST["ime"]);
         $prezime = escape($_POST["prezime"]);
         $email = escape($_POST["email"]);
-        $sifra = escape($_POST["sifra"]);
-        $sifraP = escape($_POST["sifraP"]);
-        $brRac = escape($_POST["brracuna"]);
+        $prilog = escape($_POST["prilog"]);
+        $brRacP = escape($_POST["brracunaPrim"]);
+        $userName = escape($_POST["username"]);
+
+        $sql = "INSERT INTO donatori(email, ime, prezime, korisnickoIme) VALUES('$email', '$ime', '$prezime', '$userName')";
+    
+        if(confirm(query($sql))){ 
+            echo "<p class='info'>Uspesno ste se upisali u bazu podataka</p>";
+        }else{
+            echo "<p class='info'>Nije moguce upisati vase podatke u bazu</p>"; 
+        }  
+
+        $sql2 = query("SELECT * FROM primaoci WHERE brojRacuna=$brRacP");
+
+        if($sql2->num_rows > 0){ 
+            $sql3 = "UPDATE primaoci SET stanje=stanje+$prilog WHERE brojRacuna=$brRacP";
+            if(confirm(query($sql3))){ 
+                echo "<p class='info'>Uspesno ste posali novac</p>"; 
+            }
+            else {
+                echo "<p class='info'>Nije moguce poslati novac !</p>"; 
+            }
+        }else{
+            echo "<p class='info'>U databazi ne postoji korisnik sa datim brojem racuna</p>"; 
+        } 
     }
 }

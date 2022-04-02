@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +7,9 @@
     text-decoration: none;
 }
 
-table, th, td {
+table,
+th,
+td {
     padding: 10px;
     border: 1px solid black;
     border-collapse: collapse;
@@ -15,7 +18,7 @@ table, th, td {
 /* REGISTRACIJA */
 
 #registerContainer {
-    background-image: url('../imgs/registracija/slika3.png');  
+    background-image: url('../imgs/registracija/slika5.jpg');
     background-size: cover;
 }
 
@@ -27,22 +30,13 @@ table, th, td {
 }
 
 
-#registerContainer h1{
-    color: #00cc44;
-    font-family: 'PT Serif', serif;
-    font-size: 300%;
-    text-align: center;
-    padding-top: 30px;
-
-}
-
-#meni .div1  {
+#meni .div1 {
     margin-top: 1vw;
     width: 100%;
     position: fixed;
 }
 
-#meni button{
+#meni button {
     width: 190px;
     height: 50px;
     border: none;
@@ -56,30 +50,30 @@ table, th, td {
     margin-left: 200px;
 }
 
-#meni button:hover{
+#meni button:hover {
     box-shadow: inset 200px 0 0 0 lightblue;
     cursor: pointer;
     color: #000;
 
 }
 
-#meni a{
-    text-decoration:none;
-    color:darkblue;
+#meni a {
+    text-decoration: none;
+    color: darkblue;
 }
 
-#registerContainer form{
+#registerContainer form {
     text-align: center;
     padding-top: 5px;
 }
 
 
-#registerContainer h2{
+#registerContainer h2 {
     color: black;
     font-family: 'PT Serif', serif;
     font-size: medium;
     font-weight: bold;
-    
+
 }
 
 .info {
@@ -94,4 +88,281 @@ table, th, td {
     box-shadow: 1px 1px 1px 1px black;
 }
 
+header {
+    background-color: lightblue;
+    width: 100%;
+    height: 120px;
+    border-bottom: 4px solid white;
+    margin-top: 0px;
+    position: fixed;
+
+
+}
+
+#registerContainer h1 {
+    color: rgb(0, 0, 255);
+    font-family: 'PT Serif', serif;
+    font-size: 250%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#meni button {
+    width: 190px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 6px;
+    box-shadow: inset 0 0 0 0 #5274dd;
+    transition: ease-in-out 0.3s;
+    font-size: 16px;
+    outline: none;
+}
+
+#meni button:hover {
+    box-shadow: inset 200px 0 0 0 #5274dd;
+    cursor: pointer;
+    color: #fff;
+}
+
+#meni a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+#meni form {
+    text-align: center;
+    padding-top: 2px;
+}
+
+
+#meni h2 {
+    color: #260099;
+    font-family: 'PT Serif', serif;
+    font-size: medium;
+}
+
 /***************************************************************************************************/
+
+/******************* DONACIJE *******************************************/
+
+#donacije {
+    background-image: url('../imgs/donacije/najnovija.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#donacije h3{
+    color: #000;
+    font-family: 'PT Serif', serif;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#donacije button{
+    width: 190px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 6px;
+    box-shadow: inset 0 0 0 0 #5274dd;
+    transition: ease-in-out 0.3s;
+    font-size: 16px;
+    outline: none;
+}
+
+#donacije button:hover{
+    box-shadow: inset 200px 0 0 0 #5274dd;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+#donacije a{
+    text-decoration:none;
+    color:darkblue;}
+
+    #donacije form{
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+#donacije h2{
+    color: black;
+    font-family: 'PT Serif', serif;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+
+#donacije form{
+    text-align: center;
+}
+
+
+
+#donacije #emailD{
+    width: 150px;
+    height: 20px;
+    font-size: 15px;
+}
+
+#donacije #imeD{
+     width: 150px;
+    height: 20px;
+    font-size: 15px;
+}
+
+#donacije #prezimeD{
+    width: 150px;
+   height: 20px;
+   font-size: 15px;
+}
+
+#donacije #numberD{
+    width: 150px;
+   height: 20px;
+   font-size: 15px;
+}
+
+#donacije #valuteD{
+    width: 75px;
+   height: 20px;
+   font-size: 15px;
+}
+
+#donacije .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #donacije #naslov{
+    text-align: center;
+
+  }
+
+  #donacije #potvrdiDugme{
+    width: 220px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 6px;
+    box-shadow: inset 0 0 0 0 #5274dd;
+    transition: ease-in-out 0.3s;
+    font-size: 16px;
+    outline: none;
+}
+
+#donacije #potvrdiDugme:hover{
+    box-shadow: inset 200px 0 0 0 #5274dd;
+    cursor: pointer;
+    color: #fff;
+}
+
+#donacije table{
+    border: 2px solid black;
+    background-color: #f3f3f3;
+  
+    
+
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+
+#donacije table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+#donacije table thead tr{
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+#donacije table th, 
+table td{
+    padding: 12px 15px;
+    
+
+} 
+
+/**********************************/
+/*NASLOVNA*/
+
+.image {
+    background-image: url('../imgs/naslovna/novaSlika.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vw;  
+    position: fixed;
+    left: 0;
+    right: 0;
+    /* filter: blur(0.01vw); */
+    z-index: -1;
+}
+
+#container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+
+.div1  {
+    
+    margin-left: auto;
+    margin-right: auto; 
+    
+    align-items: center;
+    padding: 10px;
+   
+}
+
+button{
+    width: 190px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 6px;
+    box-shadow: inset 0 0 0 0 #5274dd;
+    transition: ease-in-out 0.3s;
+    font-size: 16px;
+    outline: none;
+}
+
+button:hover{
+    box-shadow: inset 200px 0 0 0 #5274dd;
+    cursor: pointer;
+    color: #fff;
+}
+
+#tekst{
+    font-weight: bold;
+    text-align: center;
+}
+
+#malaSlika{
+    position: relative;
+    top: -180px;
+    left: -680px;
+    width: 100px;
+    height: 100px;
+}
