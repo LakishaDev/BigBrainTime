@@ -25,9 +25,3 @@ function confirm($result)
         return false;
     }
 }
-
-function redirect($lok)
-{
-    header("location: {$lok}");
-    exit();
-}
