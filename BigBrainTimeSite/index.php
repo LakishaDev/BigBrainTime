@@ -3,7 +3,7 @@
     <div id="container">
 
        <h1 id="naslov">Pomozimo zajedno</h1>
-<div>
+    <div>
     <p id="tekst">
         Invalidnost je fizički ili mentalni nedostatak, koji ograničava osobu u jednoj ili više životnih aktivnosti. <br>
         U mnogim državama danas postoje zadruge, koje pomažu invalidnim osobama, da im se olakša život i da ih se što više uključi u društvo. <br>
@@ -12,7 +12,7 @@
 </div>
 
 
-    <img id="malaSlika" src="imgs/naslovna/malaSlika.jpg" alt="" srcset="">
+    <img id="malaSlika" src="imgs/naslovna/malaSlika.png" alt="" srcset="">
 
 
     

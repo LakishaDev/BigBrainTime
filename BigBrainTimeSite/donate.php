@@ -5,32 +5,38 @@
 ?>
 
 <body id="donacije">
+<h3>
+        Doniraj osobama kojima je potrebna pomoc
+    </h3>
 <form method="POST">
 <span class="text">Email</span>
-        <input type="email" name="email" id="emailD">
+        <input type="email" class="textbox" name="email" id="emailD">
         <br>
 
         <span class="text">Ime</span>
-        <input type="text" name="ime" id="imeD">
+        <input type="text" class="textbox" name="ime" id="imeD">
         <br>
 
         <span class="text">Korisnicko ime</span>
-        <input type="text" name="username" id="imeD">
+        <input type="text" class="textbox" name="username" id="imeD">
         <br>
 
         <span class="text">Prezime</span>
-        <input type="text" name="prezime" id="prezimeD">
+        <input type="text" class="textbox" name="prezime" id="prezimeD">
         <br>
 
         <span class="text">Prilog</span>
-        <input type="number" name="prilog" id="numberD">
+        <input type="number" class="textbox" name="prilog" id="numberD">
+        <br>
+
+        <span class="text">Br.Racuna</span>
+        <input type="number" class="textbox" name="brracunaPrim" id="brracunaPrim">
         <br>
 
         <br>
-        <input type="submit"  value="Uplati odabranim osobama" id="potvrdiDugme">
-
         <br>
-        <table class="center">
+        <br>
+        <table class="center content-table">
             <tr>
                 <th>R.Br</th>
                 <th>Ime</th>
@@ -45,6 +51,11 @@
                 }
             ?>
         </table>
+        <br>
+        <br>
+        <input type="submit"  value="Uplati odabranim osobama" id="potvrdiDugme">
+        <br>
+        <br>
         <br>
     </form>
 </body>
